@@ -14,11 +14,11 @@ gem "bootsnap", require: false
 gem "pg"
 group :development, :test do
   gem "debug", platforms: %i[ mri mswin mswin64 mingw x64_mingw ]
+  gem "sqlite3", "~> 1.4"
 end
 
 group :development do
   gem "web-console"
-  gem "sqlite3", "~> 1.4"
 end
 
 
